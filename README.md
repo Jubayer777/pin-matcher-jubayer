@@ -1,7 +1,7 @@
 # pin-matcher-jubayer
 
 
-This is a simple project of pin matching operation.
+This is a simple project of pin matching operation, designed by simple html, css bootstrap and developed by javascript DOM .
 It performs following operations---
 
 1.By clicking on the Generate pin button we can easily generate a random four digit pin in the above input bar.

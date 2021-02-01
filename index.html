@@ -42,7 +42,7 @@
                                 <div class="button">C</div>
                             </div>
                             <div>
-                                <button  onclick="verifyPin()" type="submit" class="submit-btn">Submit</button>
+                                <button id="disable-submit" onclick="verifyPin()" type="submit" class="submit-btn">Submit</button>
                                 <p  id="action-message" class="action-left">4</p>
                             </div>
                     </div>
@@ -122,6 +122,7 @@
                 }
                 else{
                     document.getElementById('action-message').innerText='Your account has been blocked due to unauthorized theft'
+                    document.getElementById("disable-submit").disabled = true;
                 }
                 document.getElementById('action-message').style.display='block';
             }
